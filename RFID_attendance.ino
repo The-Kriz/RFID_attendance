@@ -68,11 +68,11 @@ void loop()
         foundTag = true;
         Serial.println();
         delay(DELAY);
-      }
+      }}
     if (!foundTag)
         {
           Serial.println("Student Details not found!");
           delay(DELAY);
         }
       
-    }}
+    }
